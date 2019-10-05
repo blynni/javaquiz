@@ -1,0 +1,16 @@
+// Java program to add punctuation to a given string 
+  
+public class Test 
+{ 
+    public static void main(String[] args) 
+    { 
+        // input string 
+        String str = "I <3 JAVA"; 
+          
+        // add punctuation 
+        str = new StringBuilder(str).insert(9, "!!!").toString(); 
+          
+        System.out.println(str); 
+    } 
+      
+} 
